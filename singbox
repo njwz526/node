@@ -97,62 +97,6 @@
 {
             "server": "www.visa.com.sg",
             "server_port": 8880,
-            "tag": "vm-argo固定-8880",
-            "tls": {
-                "enabled": false,
-                "server_name": "wzargo.916562234.xyz",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "packet_encoding": "packetaddr",
-            "transport": {
-                "headers": {
-                    "Host": [
-                        "wzargo.916562234.xyz"
-                    ]
-                },
-                "path": "/",
-                "type": "ws"
-            },
-            "type": "vmess",
-            "security": "auto",
-            "uuid": "fdca45da-7616-431f-8cfe-14fa93e800f0"
-        },
-
-{
-            "server": "www.visa.com.sg",
-            "server_port": 8443,
-            "tag": "vm-tls-argo固定-8443",
-            "tls": {
-                "enabled": true,
-                "server_name": "wzargo.916562234.xyz",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "packet_encoding": "packetaddr",
-            "transport": {
-                "headers": {
-                    "Host": [
-                        "wzargo.916562234.xyz"
-                    ]
-                },
-                "path": "/",
-                "type": "ws"
-            },
-            "type": "vmess",
-            "security": "auto",
-            "uuid": "fdca45da-7616-431f-8cfe-14fa93e800f0"
-        },
-
-{
-            "server": "www.visa.com.sg",
-            "server_port": 8880,
             "tag": "vm-argo临时-8880",
             "tls": {
                 "enabled": false,
@@ -478,9 +422,7 @@
  "18518-vless-tcp-vision",
  "35615-vless-reality-vision",
  "vm-tls-argo临时-8443",
- "vm-argo临时-8880",
- "vm-tls-argo固定-8443",
- "vm-argo固定-8880"
+ "vm-argo临时-8880"
 
       ]
     },
@@ -501,9 +443,7 @@
  "18518-vless-tcp-vision",
  "35615-vless-reality-vision",
  "vm-tls-argo临时-8443",
- "vm-argo临时-8880",
- "vm-tls-argo固定-8443",
- "vm-argo固定-8880"
+ "vm-argo临时-8880"
 
       ],
       "url": "https://www.gstatic.com/generate_204",
