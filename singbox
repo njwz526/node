@@ -264,7 +264,7 @@
 },
 
 {
-            "server": "wz.916562234.xyz",
+            "server": "www.web.com",
             "server_port": 8443,
             "tag": "8443-vless-ws-tls",
             "tls": {
@@ -291,7 +291,7 @@
         },
 
 {
-            "server": "wz.916562234.xyz",
+            "server": "www.web.com",
             "server_port": 2095,
             "tag": "2095-vmess-ws",
             "tls": {
