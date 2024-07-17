@@ -97,10 +97,10 @@
 {
             "server": "www.visa.com.sg",
             "server_port": 8880,
-            "tag": "vm-argo临时-8880",
+            "tag": "vm-argo固定-8880",
             "tls": {
                 "enabled": false,
-                "server_name": "euros-match-lyric-cant.trycloudflare.com",
+                "server_name": "cdag.916562234.xyz",
                 "insecure": false,
                 "utls": {
                     "enabled": true,
@@ -111,7 +111,7 @@
             "transport": {
                 "headers": {
                     "Host": [
-                        "euros-match-lyric-cant.trycloudflare.com"
+                        "cdag.916562234.xyz"
                     ]
                 },
                 "path": "/",
@@ -119,7 +119,63 @@
             },
             "type": "vmess",
             "security": "auto",
-            "uuid": "fdca45da-7616-431f-8cfe-14fa93e800f0"
+            "uuid": "22bc6e5a-53da-48cb-f6f0-9fbc76249b57"
+        },
+
+{
+            "server": "www.visa.com.sg",
+            "server_port": 8443,
+            "tag": "vm-tls-argo固定-8443",
+            "tls": {
+                "enabled": true,
+                "server_name": "cdag.916562234.xyz",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "packet_encoding": "packetaddr",
+            "transport": {
+                "headers": {
+                    "Host": [
+                        "cdag.916562234.xyz"
+                    ]
+                },
+                "path": "/",
+                "type": "ws"
+            },
+            "type": "vmess",
+            "security": "auto",
+            "uuid": "22bc6e5a-53da-48cb-f6f0-9fbc76249b57"
+        },
+
+{
+            "server": "www.visa.com.sg",
+            "server_port": 8880,
+            "tag": "vm-argo临时-8880",
+            "tls": {
+                "enabled": false,
+                "server_name": "kick-lying-gratuit-motivated.trycloudflare.com",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "packet_encoding": "packetaddr",
+            "transport": {
+                "headers": {
+                    "Host": [
+                        "kick-lying-gratuit-motivated.trycloudflare.com"
+                    ]
+                },
+                "path": "/",
+                "type": "ws"
+            },
+            "type": "vmess",
+            "security": "auto",
+            "uuid": "22bc6e5a-53da-48cb-f6f0-9fbc76249b57"
         },
 
 {
@@ -128,7 +184,7 @@
             "tag": "vm-tls-argo临时-8443",
             "tls": {
                 "enabled": true,
-                "server_name": "euros-match-lyric-cant.trycloudflare.com",
+                "server_name": "kick-lying-gratuit-motivated.trycloudflare.com",
                 "insecure": false,
                 "utls": {
                     "enabled": true,
@@ -139,7 +195,7 @@
             "transport": {
                 "headers": {
                     "Host": [
-                        "euros-match-lyric-cant.trycloudflare.com"
+                        "kick-lying-gratuit-motivated.trycloudflare.com"
                     ]
                 },
                 "path": "/",
@@ -147,15 +203,15 @@
             },
             "type": "vmess",
             "security": "auto",
-            "uuid": "fdca45da-7616-431f-8cfe-14fa93e800f0"
+            "uuid": "22bc6e5a-53da-48cb-f6f0-9fbc76249b57"
         },
 
  {
       "type": "vless",
-      "tag": "35615-vless-reality-vision",
-      "server": "",
-      "server_port": 35615,
-      "uuid": "a4017e2d-ac31-46df-82e3-c288eb97ce19",
+      "tag": "40419-vless-reality-vision",
+      "server": "65.49.218.40",
+      "server_port": 40419,
+      "uuid": "e7e4fafd-2061-4da0-9449-d87618d703be",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
@@ -167,39 +223,48 @@
         },
       "reality": {
           "enabled": true,
-          "public_key": "apiP2NImLbS317IdnIhlIUMTdsAyXk-AlTLfUXfHFVc",
-          "short_id": "02a08f34"
+          "public_key": "X4AO3tgjV_RUdCx1Z_26uVWbKqgctmC2gLx_Y4kMd1k",
+          "short_id": "988a9614"
         }
       }
     },
 
 {
             "server": "wz.916562234.xyz",
-            "server_port": 18518,
-            "tag": "18518-vless-tcp-vision",
+            "server_port": 27280,
+            "tag": "27280-vless-tcp-vision",
             "tls": {
                 "enabled": true,
                 "insecure": false
             },
             "type": "vless",
             "flow": "xtls-rprx-vision",
-            "uuid": "e235f4a7-4662-40c5-ac54-22ffabda6e6f"
+            "uuid": "7e0964b0-8890-4542-af2f-4a4513abee74"
         },
 
 {
             "server": "wz.916562234.xyz",
-            "server_port": 39690,
-            "tag": "39690-trojan-tcp-tls",
+            "server_port": 32711,
+            "tag": "32711-trojan-tcp-tls",
             "tls": {
                 "enabled": true,
                 "insecure": false
             },
             "type": "trojan",
-            "password": "AgrF105EMF"
+            "password": "alX9mP4BJR"
         },
 
 {
-            "server": "www.wto.org",
+      "type": "shadowsocks",
+      "tag": "17164-ss-tcp",
+      "server": "wz.916562234.xyz",
+      "server_port": 17164,
+      "method": "aes-256-gcm",
+      "password": "RktiVjNBTWtoVXkxdG9YaVJHa0YyNzcxdWdMMmJrRTY="
+},
+
+{
+            "server": "wz.916562234.xyz",
             "server_port": 8443,
             "tag": "8443-vless-ws-tls",
             "tls": {
@@ -222,11 +287,11 @@
                 "type": "ws"
             },
             "type": "vless",
-            "uuid": "ac281cd1-99d2-4936-d1ea-e2ed46753ec4"
+            "uuid": "a018181d-32ef-468f-f436-a55422a9ade2"
         },
 
 {
-            "server": "www.wto.org",
+            "server": "wz.916562234.xyz",
             "server_port": 2095,
             "tag": "2095-vmess-ws",
             "tls": {
@@ -250,146 +315,44 @@
             },
             "type": "vmess",
             "security": "auto",
-            "uuid": "3e5938f4-9c83-4a40-c0fb-dabef965c8c9"
+            "uuid": "6bd5eabd-868c-4773-90ca-036031022143"
         },
 
  {
       "type": "vless",
-      "tag": "20332-vless-reality-vision",
-      "server": "",
-      "server_port": 20332,
-      "uuid": "2fd1bbe9-52bc-41f3-c169-6cba0ed2329f",
+      "tag": "10419-vless-reality-vision",
+      "server": "65.49.218.40",
+      "server_port": 10419,
+      "uuid": "f24f02f0-26e5-4407-b486-8582fa03594e",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.microsoft.com",
+        "server_name": "www.yahoo.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
       "reality": {
           "enabled": true,
-          "public_key": "fgR37Ew5JEObFITrTV0uLeUyaEYXix5Y2ao7K3tS_i8",
-          "short_id": "b235a07f"
+          "public_key": "OSHH01J-VnVafcpH-7OpdHMpu9_HEcTRY-7tUnVh5XI",
+          "short_id": "7b79fc10"
         }
       }
     },
 
- {
-      "type": "vless",
-      "tag": "21283-vless-reality-vision",
-      "server": "",
-      "server_port": 21283,
-      "uuid": "88d31e52-ea1a-413b-a762-012502fcdb83",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.microsoft.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
+{
+            "server": "wz.916562234.xyz",
+            "server_port": 25823,
+            "tag": "25823-vless-tcp-vision",
+            "tls": {
+                "enabled": true,
+                "insecure": false
+            },
+            "type": "vless",
+            "flow": "xtls-rprx-vision",
+            "uuid": "6c9a83e0-9a07-469f-8c9b-f1a3c918621e"
         },
-      "reality": {
-          "enabled": true,
-          "public_key": "QqtcwVXpESRGjLGaQNF5tLj-ZNGq4aJT-ghUka4Q0Rc",
-          "short_id": "787718c6"
-        }
-      }
-    },
-
- {
-      "type": "vless",
-      "tag": "31760-vless-reality-vision",
-      "server": "",
-      "server_port": 31760,
-      "uuid": "b9d8e1bb-ccf8-4b75-dbea-0604a7a71455",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.microsoft.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-      "reality": {
-          "enabled": true,
-          "public_key": "AuaGQZMlawi9MM_IIwO5cSd9AwDUh2hcxRkY4U_jf1k",
-          "short_id": "8b46619f"
-        }
-      }
-    },
-
- {
-      "type": "vless",
-      "tag": "51039-vless-reality-vision",
-      "server": "",
-      "server_port": 51039,
-      "uuid": "c06309db-925d-417d-daaf-e48d9b520a59",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.microsoft.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-      "reality": {
-          "enabled": true,
-          "public_key": "13EVx7K3hCmxsAAIw4E5hs2tjofaGHFhOt5Ptx-iyUQ",
-          "short_id": "75b07abc"
-        }
-      }
-    },
-
- {
-      "type": "vless",
-      "tag": "24742-vless-reality-vision",
-      "server": "",
-      "server_port": 24742,
-      "uuid": "a55b3fcb-6ed1-41fc-9b38-f68c601ed8d8",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.oracle.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-      "reality": {
-          "enabled": true,
-          "public_key": "Ligwjw9EuXwy0CXyiOZEGmXWFeozlXDOVUCy7eWyq1c",
-          "short_id": "9ef40f38"
-        }
-      }
-    },
-
- {
-      "type": "vless",
-      "tag": "32281-vless-reality-vision",
-      "server": "",
-      "server_port": 32281,
-      "uuid": "18d0c0cb-e129-4345-d06e-de0a9e8abf56",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.oracle.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-      "reality": {
-          "enabled": true,
-          "public_key": "AGDtsmtIuGXAqc9ydCrdJF3HF35TGl--9RNo57botAw",
-          "short_id": "a2e06267"
-        }
-      }
-    },
 
     {
       "tag": "direct",
@@ -410,19 +373,18 @@
       "outbounds": [
         "auto",
 
- "32281-vless-reality-vision",
- "24742-vless-reality-vision",
- "51039-vless-reality-vision",
- "31760-vless-reality-vision",
- "21283-vless-reality-vision",
- "20332-vless-reality-vision",
+ "25823-vless-tcp-vision",
+ "10419-vless-reality-vision",
  "2095-vmess-ws",
  "8443-vless-ws-tls",
- "39690-trojan-tcp-tls",
- "18518-vless-tcp-vision",
- "35615-vless-reality-vision",
+ "17164-ss-tcp",
+ "32711-trojan-tcp-tls",
+ "27280-vless-tcp-vision",
+ "40419-vless-reality-vision",
  "vm-tls-argo临时-8443",
- "vm-argo临时-8880"
+ "vm-argo临时-8880",
+ "vm-tls-argo固定-8443",
+ "vm-argo固定-8880"
 
       ]
     },
@@ -431,19 +393,18 @@
       "type": "urltest",
       "outbounds": [
 
- "32281-vless-reality-vision",
- "24742-vless-reality-vision",
- "51039-vless-reality-vision",
- "31760-vless-reality-vision",
- "21283-vless-reality-vision",
- "20332-vless-reality-vision",
+ "25823-vless-tcp-vision",
+ "10419-vless-reality-vision",
  "2095-vmess-ws",
  "8443-vless-ws-tls",
- "39690-trojan-tcp-tls",
- "18518-vless-tcp-vision",
- "35615-vless-reality-vision",
+ "17164-ss-tcp",
+ "32711-trojan-tcp-tls",
+ "27280-vless-tcp-vision",
+ "40419-vless-reality-vision",
  "vm-tls-argo临时-8443",
- "vm-argo临时-8880"
+ "vm-argo临时-8880",
+ "vm-tls-argo固定-8443",
+ "vm-argo固定-8880"
 
       ],
       "url": "https://www.gstatic.com/generate_204",
